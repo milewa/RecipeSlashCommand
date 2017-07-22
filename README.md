@@ -1,9 +1,8 @@
 # Giphy Slash Command for Mixmax
 
-This is an open source Mixmax Slash Command designed to pull link a url for a recipe using the Food2Fork database through their API. See <http://food2fork.com/about/api> 
-details on the Food2Fork
+This is an open source Mixmax Slash Command designed to link a url for a recipe using the Food2Fork database through their API. See <http://food2fork.com/about/api> for details on the Food2Fork API
 
-See <http://developer.mixmax.com/docs/overview-slash-commands#tutorial-building-mygiphy> for more information about how the a slash command works in MixMax.
+See <http://developer.mixmax.com/docs/overview-slash-commands#tutorial-building-mygiphy> for more information about how a slash command works in MixMax.
 Code was written based on typeahead.js and resolver.js from <https://github.com/mixmaxhq/giphy-example-slash-command>. server.js was also found from that repo. 
 
 ## Running locally
