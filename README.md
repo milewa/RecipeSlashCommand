@@ -22,6 +22,18 @@ To simulate locally how Mixmax calls the resolver URL (to return HTML that goes 
 curl https://localhost:9145/resolver?text=cats --insecure
 ```
 
+To add the slash command to your mixmax application as a slash command
+
+Input|Value
+-----|----
+Name|MyRecipleSearch
+Command|reciple
+Parameter placeholder|\[Search\]
+Typeahead API URL|https://localhost:9145/typeahead
+Resolver API URL|https://localhost:9145/resolver
+
+Then refresh and next time, add a cool reciple to your email!
+
 ## Why do we run it in https locally?
 
 Mixmax slash command APIs are required to be served over https. This is because they are queried directly from the Mixmax client in the browser (using AJAX) that's running on an https domain. Browsers forbid AJAX requests from https domains to call http APIs, for security. So we must run an https server with a locally-signed certificate.
