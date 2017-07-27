@@ -26,13 +26,13 @@ To add the slash command to your mixmax application as a slash command
 
 Input|Value
 -----|----
-Name|MyRecipleSearch
-Command|reciple
+Name|MyRecipeSearch
+Command|recipe
 Parameter placeholder|\[Search\]
 Typeahead API URL|https://localhost:9145/typeahead
 Resolver API URL|https://localhost:9145/resolver
 
-Then refresh and next time, add a cool reciple to your email!
+Then refresh and next time, add a cool recipe to your email!
 
 ## Why do we run it in https locally?
 
